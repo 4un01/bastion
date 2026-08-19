@@ -212,6 +212,10 @@ img { max-width: none; }
 .project-card--blue { background: var(--blue); }
 .project-card--sage { background: var(--sage); }
 
+.project-card--grey .project-card__stat { background: var(--grey); }
+.project-card--blue .project-card__stat { background: var(--blue); }
+.project-card--sage .project-card__stat { background: var(--sage); }
+
 .project-card__top {
   display: flex;
   flex-direction: column;
@@ -828,10 +832,6 @@ img { max-width: none; }
   }
   .project-card__title--light { color: var(--ink); }
   .project-card__tag--light { color: var(--ink); }
-
-  .project-card--grey .project-card__stat { background: var(--grey); }
-  .project-card--blue .project-card__stat { background: var(--blue); }
-  .project-card--sage .project-card__stat { background: var(--sage); }
 
   .project-card__top { padding: 20px 16px 0 16px; gap: 8px; }
   .project-card__title { font-size: 40px; }
